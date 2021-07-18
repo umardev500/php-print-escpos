@@ -1,0 +1,19 @@
+{
+    "name": "umardevid/php-print-escpos",
+    "description": "Printing to thermal printer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "umardevid",
+            "email": "umaralfaruq587@gmail.com"
+        }
+    ],
+    "require": {
+        "mike42/escpos-php": "^3.0"
+    },
+    "autoload" : { 
+        "psr-4" : { 
+            "Umardevid\\" : "app/Umardevid"
+        }
+    }
+}
